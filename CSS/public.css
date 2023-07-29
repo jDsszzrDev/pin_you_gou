@@ -17,7 +17,18 @@
 	float: right;
 }
 
+/* 共有颜色 */
+.style_red {
+	color: #c81623;
+}
+
+/* 快捷导航栏整体样式 */
 .shortcut {
 	height: 31px;
+	line-height: 31px;
 	background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+	float: left;
 }
