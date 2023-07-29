@@ -28,7 +28,19 @@
 	line-height: 31px;
 	background-color: #f1f1f1;
 }
-
-.shortcut ul li {
+/* li浮动 */
+.shortcut .fl ul li {
 	float: left;
+}
+
+.shortcut .fr ul li {
+	float: left;
+}
+
+/* 使用CSS创造竖线 */
+.shortcut .fr ul li:nth-child(even) {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 15px 0;
 }
