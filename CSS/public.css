@@ -8,6 +8,19 @@
 	margin: 0 auto;
 }
 
+/* 字体声明 */
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?tomleg');
+	src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+		url('../fonts/icomoon.woff?tomleg') format('woff'),
+		url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
 /* 浮动 */
 .fl {
 	float: left;
@@ -23,6 +36,7 @@
 }
 
 /* 快捷导航栏整体样式 */
+/* -----------------Start -------------- */
 .shortcut {
 	height: 31px;
 	line-height: 31px;
@@ -43,4 +57,11 @@
 	height: 12px;
 	background-color: #666;
 	margin: 9px 15px 0;
+}
+
+/* 下拉三角 */
+.arrow-icon::after {
+	content: "\e91e";
+	font-family: "icomoon";
+	margin-left: 6px;
 }
