@@ -7,3 +7,17 @@
 	width: 1200px;
 	margin: 0 auto;
 }
+
+/* 浮动 */
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.shortcut {
+	height: 31px;
+	background-color: #f1f1f1;
+}
