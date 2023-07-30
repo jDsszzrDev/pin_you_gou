@@ -1,3 +1,23 @@
+/*
+ * 首页样式内容
+ * 作者：JdSSzzr
+ * ------------- Start ------------ 
+*/
+
+/* 字体声明 */
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?tomleg');
+	src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+		url('../fonts/icomoon.woff?tomleg') format('woff'),
+		url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+/* 总框架 */
 .main {
 	width: 980px;
 	height: 455px;
@@ -5,12 +25,14 @@
 	margin-left: 220px;
 }
 
+/* 焦点图 */
 .focus {
 	float: left;
 	width: 721px;
 	height: 455px;
 }
 
+/* 快报 */
 .newsflash {
 	float: right;
 	width: 250px;
@@ -19,8 +41,38 @@
 
 .news {
 	height: 165px;
+	border: 1px solid #e4e4e4;
 }
 
+.news_hd {
+	height: 33px;
+	line-height: 33px;
+	border-bottom: 1px dotted #e4e4e4;
+	padding: 0 15px;
+}
+
+.news_hd h5 {
+	float: left;
+	font-size: 14px;
+}
+
+.news_hd .more {
+	float: right;
+}
+
+.news_hd .more::after {
+	font-family: "icomoon";
+	content: "\e920";
+}
+
+.news_bd {
+	padding: 5px 15px 0;
+}
+
+.news_bd ul li {
+	height: 24px;
+	line-height: 24px;
+}
 .lifeservice {
 	height: 209px;
 }
@@ -28,3 +80,5 @@
 .bargain {
 	margin-top: 5px;
 }
+
+/* -------------  End  ------------ */
