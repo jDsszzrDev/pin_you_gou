@@ -168,3 +168,25 @@
 	border-radius: 7px 7px 7px 0;
 }
 /* -------------  End  ------------ */
+
+/*
+ * Nav模块样式内容
+ * 作者：JdSSzzr
+ * ------------- Start ------------ 
+ */
+
+ .nav {
+	height: 47px;
+	border-bottom: 2px solid #b1191a;
+ }
+
+ .nav dropdown {
+	float: left;
+	width: 210px;
+	height: 45px;
+ }
+
+ .nav navitems {
+	float: left;
+ }
+/* -------------  End  ------------ */
