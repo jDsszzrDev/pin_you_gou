@@ -191,6 +191,7 @@
 .recom {
 	height: 163px;
 	margin-top: 12px;
+	background-color: #ebebeb;
 }
 
 .recom_hd {
@@ -211,5 +212,27 @@
 
 .recom_bd {
 	float: left;
+	
+}
+
+.recom_bd ul li {
+	position: relative;
+	float: left;
+}
+
+/* 限制图片大小 */
+.recom_bd lul li img {
+	width: 248px;
+	height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 1px;
+	height: 145px;
+	background-color: #ddd;
 }
 /* -------------  End  ------------ */
