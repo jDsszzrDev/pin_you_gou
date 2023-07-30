@@ -130,5 +130,41 @@
 	margin: 0 10px;
 }
 
+/* shopcar */
+.shopcar {
+	position: absolute;
+	right: 60px;
+	top: 25px;
+	width: 140px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #dfdfdf;
+	background-color: #f7f7f7;
+}
 
+.shopcar::before {
+	content: "\e93a";
+	font-family: "icomoon";
+	margin-right: 5px;
+	color: #b1191a;
+}
+
+.shopcar::after {
+	content: "\e920";
+	font-family: "icomoon";
+	margin-left: 10px;
+}
+
+.count {
+	position: absolute;
+	left: 105px;
+	top: -5px;
+	height: 14px;
+	line-height: 14px;
+	color: #fff;
+	background-color: #e60012;
+	padding: 0 5px;
+	border-radius: 7px 7px 7px 0;
+}
 /* -------------  End  ------------ */
