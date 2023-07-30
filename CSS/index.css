@@ -1,8 +1,3 @@
-/*
- * 首页样式内容
- * 作者：JdSSzzr
- * ------------- Start ------------ 
-*/
 
 /* 字体声明 */
 @font-face {
@@ -24,7 +19,11 @@
 	margin-top: 10px;
 	margin-left: 220px;
 }
-
+/*
+ * 焦点图和快报样式内容
+ * 作者：JdSSzzr
+ * ------------- Start ------------ 
+*/
 /* 焦点图 */
 .focus {
 	float: left;
@@ -72,6 +71,10 @@
 .news_bd ul li {
 	height: 24px;
 	line-height: 24px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	/* 超出内容限时省略号 */
 }
 .lifeservice {
 	overflow: hidden;
@@ -86,15 +89,127 @@
 
 .lifeservice ul li {
 	float: left;
+	position: relative;
 	width: 63px;
 	height: 71px;
 	border-right: 1px solid #e4e4e4;
 	border-bottom: 1px solid #e4e4e4;
+	text-align: center;
+}
 
+.lifeservice ul li i {
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+	margin-top: 12px;
+}
+
+.lifeservice ul li em {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.jian {
+	width: 14px;
+	height: 17px;
+	background-color: #548f5e;
+	color: #fff;
+	font-size: 11px;
+}
+
+.triangle {
+	position: absolute;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 4px solid #fff;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+}
+
+.lifeservice ul li:nth-child(1) i {
+	background: url(../images/icons.png) no-repeat -17px -15px;
+}
+
+.lifeservice ul li:nth-child(2) i {
+	background: url(../images/icons.png) no-repeat -79px -15px;
+}
+
+.lifeservice ul li:nth-child(3) i {
+	background: url(../images/icons.png) no-repeat -141px -15px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+	background: url(../images/icons.png) no-repeat -206px -15px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+	background: url(../images/icons.png) no-repeat -17px -85px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+	background: url(../images/icons.png) no-repeat -79px -85px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+	background: url(../images/icons.png) no-repeat -141px -85px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+	background: url(../images/icons.png) no-repeat -206px -85px;
+}
+
+.lifeservice ul li:nth-child(9) i {
+	background: url(../images/icons.png) no-repeat -17px -155px;
+}
+
+.lifeservice ul li:nth-child(10) i {
+	background: url(../images/icons.png) no-repeat -79px -155px;
+}
+
+.lifeservice ul li:nth-child(11) i {
+	background: url(../images/icons.png) no-repeat -141px -155px;
+}
+
+.lifeservice ul li:nth-child(12) i {
+	background: url(../images/icons.png) no-repeat -206px -155px;
 }
 
 .bargain {
 	margin-top: 5px;
 }
 
+/* -------------  End  ------------ */
+
+/*
+ * 推荐模块样式内容
+ * 作者：JdSSzzr
+ * ------------- Start ------------ 
+*/
+
+.recom {
+	height: 163px;
+	margin-top: 12px;
+}
+
+.recom_hd {
+	float: left;
+	height: 163px;
+	width: 205px;
+	background-color: #5c5251;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.recom_hd p {
+	display: block;
+	margin-top: 6px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.recom_bd {
+	float: left;
+}
 /* -------------  End  ------------ */
