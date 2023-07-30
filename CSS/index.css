@@ -1,6 +1,7 @@
 .main {
 	width: 980px;
 	height: 455px;
+	margin-top: 10px;
 	margin-left: 220px;
 }
 
@@ -14,4 +15,16 @@
 	float: right;
 	width: 250px;
 	height: 455px;
+}
+
+.news {
+	height: 165px;
+}
+
+.lifeservice {
+	height: 209px;
+}
+
+.bargain {
+	margin-top: 5px;
 }
