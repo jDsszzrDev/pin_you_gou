@@ -3,3 +3,6 @@
 
 ## 为什么选用Gitlab
 &emsp;&emsp;在经过Copilot的代码数据存在违反开源仓库的开源协议的事件后，我认为Github并不能称为一个是自由、开放的平台，但是，Codeberg更为小众，故退一步选择Gitlab，至少其现在(2023-07-29)没有爆出违反开源协议的事情。
+
+## 一个无奈的问题
+&emsp;&emsp;Gitlab的Page功能相比与Github来说太为复杂了，故代码依旧存放在Gitlab，只有部署Page需要的才会导入到Github
